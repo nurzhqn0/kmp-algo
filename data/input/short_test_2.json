@@ -1,0 +1,6 @@
+{
+  "test_id": "short_2",
+  "text": "HELLO WORLD",
+  "pattern": "WORLD",
+  "description": "Simple pattern match in short text"
+}

@@ -1,0 +1,6 @@
+{
+  "test_id": "long_2",
+  "text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB",
+  "pattern": "AAAAB",
+  "description": "Worst case scenario - many false starts with repeating characters"
+}

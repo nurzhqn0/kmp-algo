@@ -1,0 +1,6 @@
+{
+  "test_id": "short_1",
+  "text": "ABABDABACDABABCABAB",
+  "pattern": "ABABCABAB",
+  "description": "Pattern found at end of text"
+}

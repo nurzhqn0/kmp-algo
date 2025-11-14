@@ -1,0 +1,6 @@
+{
+  "test_id": "medium_1",
+  "text": "The quick brown fox jumps over the lazy dog",
+  "pattern": "jumps",
+  "description": "Finding word in medium-length sentence"
+}

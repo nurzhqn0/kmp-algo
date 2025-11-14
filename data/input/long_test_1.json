@@ -1,0 +1,6 @@
+{
+  "test_id": "long_1",
+  "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+  "pattern": "tempor",
+  "description": "Finding pattern in long Lorem ipsum text"
+}

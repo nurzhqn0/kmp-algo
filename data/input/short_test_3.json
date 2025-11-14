@@ -1,0 +1,6 @@
+{
+  "test_id": "short_3",
+  "text": "ABCDEFGH",
+  "pattern": "XYZ",
+  "description": "Pattern not found in short text"
+}

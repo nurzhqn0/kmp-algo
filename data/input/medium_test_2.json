@@ -1,0 +1,6 @@
+{
+  "test_id": "medium_2",
+  "text": "AABAACAADAABAABA",
+  "pattern": "AABA",
+  "description": "Pattern with repeating characters - tests LPS effectiveness"
+}
