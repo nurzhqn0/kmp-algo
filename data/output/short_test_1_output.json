@@ -1,0 +1,12 @@
+{
+  "test_id": "short_1",
+  "text": "ABABDABACDABABCABAB",
+  "pattern": "ABABCABAB",
+  "found": true,
+  "index": 10,
+  "execution_time_ms": 3500,
+  "text_length": 19,
+  "pattern_length": 9,
+  "lps_array": [0, 0, 1, 2, 0, 1, 2, 3, 4],
+  "description": "Pattern found at end of text"
+}

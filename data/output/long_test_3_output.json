@@ -1,0 +1,12 @@
+{
+  "test_id": "long_3",
+  "text": "In computer science, string matching algorithms are essential for text processing and search operations in various applications throughout software development",
+  "pattern": "database",
+  "found": false,
+  "index": -1,
+  "execution_time_ms": 12958,
+  "text_length": 159,
+  "pattern_length": 8,
+  "lps_array": [0, 0, 0, 0, 0, 0, 0, 0],
+  "description": "Pattern not found in long complex technical text"
+}

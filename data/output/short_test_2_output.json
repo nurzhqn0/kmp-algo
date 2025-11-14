@@ -1,0 +1,12 @@
+{
+  "test_id": "short_2",
+  "text": "HELLO WORLD",
+  "pattern": "WORLD",
+  "found": true,
+  "index": 6,
+  "execution_time_ms": 2291,
+  "text_length": 11,
+  "pattern_length": 5,
+  "lps_array": [0, 0, 0, 0, 0],
+  "description": "Simple pattern match in short text"
+}

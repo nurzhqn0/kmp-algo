@@ -1,0 +1,12 @@
+{
+  "test_id": "medium_3",
+  "text": "Programming is fun and challenging",
+  "pattern": "difficult",
+  "found": false,
+  "index": -1,
+  "execution_time_ms": 4209,
+  "text_length": 34,
+  "pattern_length": 9,
+  "lps_array": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "description": "Pattern not found in medium-length text"
+}

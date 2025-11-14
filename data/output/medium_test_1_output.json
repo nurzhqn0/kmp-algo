@@ -1,0 +1,12 @@
+{
+  "test_id": "medium_1",
+  "text": "The quick brown fox jumps over the lazy dog",
+  "pattern": "jumps",
+  "found": true,
+  "index": 20,
+  "execution_time_ms": 3083,
+  "text_length": 43,
+  "pattern_length": 5,
+  "lps_array": [0, 0, 0, 0, 0],
+  "description": "Finding word in medium-length sentence"
+}

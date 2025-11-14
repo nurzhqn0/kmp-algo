@@ -1,0 +1,12 @@
+{
+  "test_id": "medium_2",
+  "text": "AABAACAADAABAABA",
+  "pattern": "AABA",
+  "found": true,
+  "index": 0,
+  "execution_time_ms": 1667,
+  "text_length": 16,
+  "pattern_length": 4,
+  "lps_array": [0, 1, 0, 1],
+  "description": "Pattern with repeating characters - tests LPS effectiveness"
+}
