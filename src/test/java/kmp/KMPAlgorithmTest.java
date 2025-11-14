@@ -2,24 +2,10 @@ package kmp;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Comprehensive JUnit 5 test suite for KMP Algorithm
- * Tests various scenarios including edge cases, normal cases, and performance
- *
- * @author Nuraly
- */
+
 public class KMPAlgorithmTest {
-
-    @BeforeEach
-    public void setUp() {
-        // Setup if needed
-    }
-
-    // ========== Basic Functionality Tests ==========
-
     @Test
     @DisplayName("Test simple pattern match")
     public void testSimpleMatch() {
@@ -65,7 +51,7 @@ public class KMPAlgorithmTest {
         assertEquals(0, result, "Exact match should return index 0");
     }
 
-    // ========== Edge Cases ==========
+    // edge cases
 
     @Test
     @DisplayName("Test empty pattern")
@@ -121,7 +107,7 @@ public class KMPAlgorithmTest {
         assertEquals(-1, result, "Single character not present should return -1");
     }
 
-    // ========== Repeating Characters Tests ==========
+    // repeating character
 
     @Test
     @DisplayName("Test repeating pattern - worst case")
@@ -150,7 +136,7 @@ public class KMPAlgorithmTest {
         assertEquals(0, result, "Should find pattern in all same characters");
     }
 
-    // ========== LPS Array Tests ==========
+    // lps array
 
     @Test
     @DisplayName("Test LPS array computation - simple")
@@ -188,7 +174,7 @@ public class KMPAlgorithmTest {
         assertArrayEquals(expected, result, "LPS array for single character should be [0]");
     }
 
-    // ========== Case Sensitivity Tests ==========
+    // case sensitivity
 
     @Test
     @DisplayName("Test case sensitivity")
@@ -208,7 +194,7 @@ public class KMPAlgorithmTest {
         assertEquals(6, result, "Should match with correct case");
     }
 
-    // ========== Special Characters Tests ==========
+    // special characteristics
 
     @Test
     @DisplayName("Test with spaces")
@@ -237,7 +223,7 @@ public class KMPAlgorithmTest {
         assertEquals(3, result, "Should handle numeric characters");
     }
 
-    // ========== Multiple Occurrences Tests ==========
+    // multiple occurrences
 
     @Test
     @DisplayName("Test search all occurrences")
@@ -269,7 +255,7 @@ public class KMPAlgorithmTest {
         assertArrayEquals(expected, result, "Should return empty array for no matches");
     }
 
-    // ========== Performance and Long String Tests ==========
+    // performance and long string
 
     @Test
     @DisplayName("Test long text performance")
@@ -299,7 +285,7 @@ public class KMPAlgorithmTest {
         assertEquals(1000, result, "Should handle very long patterns");
     }
 
-    // ========== Real-world Scenarios ==========
+    // real-world
 
     @Test
     @DisplayName("Test real-world sentence")
@@ -328,7 +314,7 @@ public class KMPAlgorithmTest {
         assertTrue(result >= 0, "Should find technical term");
     }
 
-    // ========== Null Safety Tests ==========
+    // null safety
 
     @Test
     @DisplayName("Test null text")
